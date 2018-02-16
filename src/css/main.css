@@ -9,38 +9,68 @@ body {
   font-family: 'Coming Soon', cursive;
   transition: background 1s ease;
    background: #fe001a;
- }
+   color:#fff;
+    text-align:center;
+    background-image: url('https://subtlepatterns.com/patterns/geometry2.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 12px;
+    font-family: 'Dancing Script', cursive;
+    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation-fill-mode: forwards;
+    animation: backgroundScroll 15s linear 1;
+    animation-fill-mode: forwards;
 
+ }
+ @-webkit-keyframes backgroundScroll {
+ from {background-position: 0 0;}
+ to {background-position: -180px 0px;}
+ }
+ @keyframes backgroundScroll {
+ from {background-position: 0 0;}
+ to {background-position: -180px 0px;}
+
+ }
   h1{
   font-family: 'Molle', cursive;
   text-align: left;
   color: WHITE;
-  font-size:1.7em;
-  margin-top:2em;
-  transform: skew(3.1deg, 171.3deg);
+  font-size:2.1em;
+  margin-top:1em;
+  margin-left: 900px;
+  transform: skew(4.5deg, 163.3deg);
   padding right:200px;
 }
+
+h3{
+font-family: 'Molle', cursive;
+text-align: left;
+color: WHITE;
+font-size:1.5em;
+transform: skew(3.8deg, 173.5deg);
+padding right:300px;
+}
+
 
  #circle {
       width: 50px;
       height: 50px;
-      padding-left:80px;
+      padding-right:20px;
       -webkit-border-radius: 25px;
       -moz-border-radius: 25px;
       border-radius: 25px;
       background: red;
-
     }
 
 p {
-
   font-size: 1em;
   text-align: center;
 }
 
 span {
   clear: both;
-  font-size:.7em;
+  font-size:.8em;
 
 }
 
@@ -63,7 +93,7 @@ a {
       clear: both;
       vertical-align: middle;
       text-align: center;
-      font-size: 50px;
-      border-bottom: 10px;
+      font-size: 20px;
+      border-bottom: 30px;
         color:WHITE;
 }
