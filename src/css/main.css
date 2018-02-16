@@ -3,10 +3,67 @@
  */
 @import "imports/reset.css";
 
+* { box-sizing: border-box }
+
+body {
+  font-family: 'Coming Soon', cursive;
+  transition: background 1s ease;
+   background: #fe001a;
+ }
+
+  h1{
+  font-family: 'Molle', cursive;
+  text-align: left;
+  color: WHITE;
+  font-size:1.7em;
+  margin-top:2em;
+  transform: skew(3.1deg, 171.3deg);
+  padding right:200px;
+}
+
+ #circle {
+      width: 50px;
+      height: 50px;
+      padding-left:80px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: red;
+
+    }
 
 p {
-  font-size: 50px;
-  border-bottom: 10px;
-  color:yellow;
-  color: orange;
+
+  font-size: 1em;
+  text-align: center;
+}
+
+span {
+  clear: both;
+  font-size:.7em;
+
+}
+
+a {
+  color: #fe001a;
+  text-decoration: none;
+}
+
+  .inside {
+    display: table;
+    height: 100%;
+    width: 100%;
+    padding: 0 3em;
+    background:#fe001a;
+  }
+
+    p {
+      display: table-cell;
+      width: 100%;
+      clear: both;
+      vertical-align: middle;
+      text-align: center;
+      font-size: 50px;
+      border-bottom: 10px;
+        color:WHITE;
 }
