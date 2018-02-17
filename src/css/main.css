@@ -65,7 +65,7 @@ padding right:300px;
 
 p {
   font-size: 1em;
-  text-align: center;
+  text-align: left;
 }
 
 span {
@@ -92,7 +92,7 @@ a {
       width: 100%;
       clear: both;
       vertical-align: middle;
-      text-align: right;
+      text-align:center;
       font-size: 20px;
       border-bottom: 30px;
         color:WHITE;
