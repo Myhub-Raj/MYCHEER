@@ -87,6 +87,7 @@ a {
     padding: 0.3em;
     background:#fe001a;
     text-align:center;
+    font-family: 'Molle', cursive;
   }
 
     p {
@@ -98,4 +99,5 @@ a {
       font-size: 20px;
       border-bottom: 30px;
         color:WHITE;
+        font-family: 'Molle', cursive;
 }
